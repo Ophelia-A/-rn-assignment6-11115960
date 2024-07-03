@@ -58,11 +58,11 @@ const CartScreen = () => {
       <View style={styles.header}>
         <Image
           style={{ marginLeft: 160 }}
-          source={require("./assets/logo.png")}
+          source={require("./assets/Logo.png")}
         />
         <View style={styles.icons}>
           <TouchableOpacity>
-            <Image source={require("./assets/search.png")} />
+            <Image source={require("./assets/Search.png")} />
           </TouchableOpacity>
         </View>
       </View>
@@ -90,7 +90,7 @@ const CartScreen = () => {
       <View style={styles.footer}>
         <View style={styles.footerr}>
           <Text style={styles.total}>EST. TOTAL </Text>
-          <Text style={styles.totall}>${calculateTotal()} </Text>
+          <Text style={styles.calctotal}>${calculateTotal()} </Text>
         </View>
         <TouchableOpacity style={styles.checkoutButton}>
           <View
@@ -107,10 +107,10 @@ const CartScreen = () => {
                 height: 40,
                 width: 40,
               }}
-              source={require("./assets/w.png")}
+              source={require("./assets/shoppingBag.png")}
             />
           </View>
-          <Text style={styles.checkoutButtonText}>CHECKOUT</Text>
+          <Text style={styles.checkoutText}>CHECKOUT</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>
@@ -223,7 +223,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     marginLeft: 0,
   },
-  totall: {
+  calctotal: {
     fontSize: 18,
     fontWeight: "normal",
     marginBottom: 10,
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
   },
-  checkoutButtonText: {
+  checkoutText: {
     color: "white",
     fontSize: 25,
     fontWeight: "normal",

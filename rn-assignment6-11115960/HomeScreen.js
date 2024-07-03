@@ -23,49 +23,49 @@ const products = [
     name: "Black",
     description: "reversible angora cardigan",
     price: 120,
-    icon: require("./assets/dress22.png"),
+    icon: require("./assets/dress2.png"),
   },
   {
     id: "3",
     name: "Church Wear",
     description: "reversible angora cardigan",
     price: 120,
-    icon: require("./assets/dress33.png"),
+    icon: require("./assets/dress3.png"),
   },
   {
     id: "4",
     name: "LAMEREI",
     description: "Recycle Boucle Knit Cardigan Pink",
     price: 120,
-    icon: require("./assets/dress44.png"),
+    icon: require("./assets/dress4.png"),
   },
   {
     id: "5",
     name: "21WN",
     description: "reversible angora cardigan",
     price: 120,
-    icon: require("./assets/dress55.png"),
+    icon: require("./assets/dress5.png"),
   },
   {
     id: "6",
     name: "Lopo",
     description: "reversible angora cardigan",
     price: 120,
-    icon: require("./assets/dress66.png"),
+    icon: require("./assets/dress6.png"),
   },
   {
     id: "7",
     name: "21WN Alt",
     description: "reversible angora cardigan",
     price: 120,
-    icon: require("./assets/dress77.png"),
+    icon: require("./assets/dress7.png"),
   },
   {
     id: "8",
     name: "Lame",
     description: "reversible angora cardigan",
     price: 120,
-    icon: require("./assets/dress33.png"),
+    icon: require("./assets/dress3.png"),
   },
 ];
 
@@ -95,7 +95,7 @@ const HomeScreen = ({ navigation }) => {
           style={styles.addButton}
         >
           <Image
-            source={require("./assets/circle.png")}
+            source={require("./assets/addcircle.png")}
             style={{ height: "100%", width: "100%" }}
           />
         </TouchableOpacity>
@@ -109,14 +109,14 @@ const HomeScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Image source={require("./assets/menu.png")} />
-        <Image source={require("./assets/logo.png")} />
+        <Image source={require("./assets/Menu.png")} />
+        <Image source={require("./assets/Logo.png")} />
         <View style={styles.icons}>
           <TouchableOpacity>
-            <Image source={require("./assets/search.png")} />
+            <Image source={require("./assets/Search.png")} />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate("Cart")}>
-            <Image source={require("./assets/bag.png")} />
+            <Image source={require("./assets/shoppingbBag.png")} />
           </TouchableOpacity>
         </View>
       </View>
@@ -125,12 +125,12 @@ const HomeScreen = ({ navigation }) => {
         <View style={styles.storyIcons}>
           <TouchableOpacity>
             <View style={styles.rounddIcon}>
-              <Image source={require("./assets/wiew.png")} />
+              <Image source={require("./assets/Listvieww.png")} />
             </View>
           </TouchableOpacity>
           <TouchableOpacity>
             <View style={styles.roundIcon}>
-              <Image source={require("./assets/fil.png")} />
+              <Image source={require("./assets/Filter.png")} />
             </View>
           </TouchableOpacity>
         </View>
